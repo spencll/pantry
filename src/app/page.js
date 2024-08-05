@@ -29,7 +29,7 @@ const style = {
 }
 
 export default function Home() {
-
+  
 const [inventory, setInventory] = useState([]) //store inventory to display
 const [open, setOpen] = useState(false) //menu status
 const [itemName, setItemName] = useState('') //
